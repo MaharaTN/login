@@ -18,7 +18,7 @@ class Login extends Component {
    async acessar(){
       await auth.signInWithEmailAndPassword(this.state.email, this.state.senha)
      .then(() => {
-        window.location.href = "./principal";
+        window.location.href = "./Principal";
      })
      .catch((error) => {  
         this.setState({ mensagemErro: 'Usuário e/ou Senha incorretos! Verifique se o usuário informado está cadastrado.'});

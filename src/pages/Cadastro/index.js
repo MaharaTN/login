@@ -28,7 +28,7 @@ class Cadastro extends Component {
            sobrenome: this.state.sobrenome,
            nascimento: this.state.nascimento       
          })
-         window.location.href = "./login";
+         window.location.href = "./Login";
       })
       .catch((error) => {  
          this.setState({ mensagemErro: 'Email já cadastrado!'});
