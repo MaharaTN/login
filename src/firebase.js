@@ -3,13 +3,12 @@ import 'firebase/auth';
 import 'firebase/firestore';
 
 const firebaseConfig = {
-  apiKey: "AIzaSyDtZF6T4H6s6ulp6ycmBXc0nruiOBFX-5E",
-  authDomain: "as2-pucpr.firebaseapp.com",
-  projectId: "as2-pucpr",
-  storageBucket: "as2-pucpr.appspot.com",
-  messagingSenderId: "578571284410",
-  appId: "1:578571284410:web:dc361ed03bca794895b783",
-  measurementId: "G-CFFVHXP222"
+  apiKey: "AIzaSyBgPVtkfnMs3HCFnoeA1RHHHVG37W0ma8o",
+  authDomain: "projetodevweb-cab17.firebaseapp.com",
+  projectId: "projetodevweb-cab17",
+  storageBucket: "projetodevweb-cab17.appspot.com",
+  messagingSenderId: "260554196248",
+  appId: "1:260554196248:web:5e6c0d5034cad0ec930a6d"
 };
 
 firebase.initializeApp(firebaseConfig);
