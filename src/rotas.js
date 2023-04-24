@@ -7,9 +7,9 @@ import Principal from './pages/Principal';
 const Rotas = () => {
    return (
       <BrowserRouter>
-	    <Route exact path="/" element={Cadastro} />
-	    <Route path="/Login" element={Login} />
-	    <Route path="/Principal" element={Principal} />
+	    <Route exact path="/" component={Cadastro} />
+	    <Route path="/Login" component={Login} />
+	    <Route path="/Principal" component={Principal} />
       </BrowserRouter>
    )
 }
